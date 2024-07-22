@@ -319,7 +319,8 @@
             "emptyTable": "Tabloda veri bulunmuyor",
             "searchPlaceholder": "Arayın...",
             "infoPostFix": " "
-        }
+        },
+        "order": [[4, "desc"]],
     });
     //  Data Table Ends Here
 
