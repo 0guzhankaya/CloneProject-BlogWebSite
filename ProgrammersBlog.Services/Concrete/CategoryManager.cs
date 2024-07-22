@@ -195,5 +195,33 @@ namespace ProgrammersBlog.Services.Concrete
                 Message = Messages.Category.Update(updatedCategory.Name)
             });
         }
+
+        public async Task<IDataResult<int>> Count()
+        {
+            var categoriesCount = await _unitOfWork.Categories.CountAsync();
+
+            if (categoriesCount > -1)
+            {
+                return new DataResult<int>(ResultStatus.SUCCESS, categoriesCount);
+            }
+            else
+            {
+                return new DataResult<int>(ResultStatus.ERROR, $"Beklenmedik bir hata ile karşılaşıldı!", -1);
+            }
+        }
+
+        public async Task<IDataResult<int>> CountByIsDeleted()
+        {
+            var categoriesCount = await _unitOfWork.Categories.CountAsync(c => !c.IsDeleted); // Silinmeyen Kategorileri getirecek predicate verildi.
+
+            if (categoriesCount > -1)
+            {
+                return new DataResult<int>(ResultStatus.SUCCESS, categoriesCount);
+            }
+            else
+            {
+                return new DataResult<int>(ResultStatus.ERROR, $"Beklenmedik bir hata ile karşılaşıldı!", -1);
+            }
+        }
     }
 }

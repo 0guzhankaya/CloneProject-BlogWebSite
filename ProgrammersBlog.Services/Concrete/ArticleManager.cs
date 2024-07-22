@@ -68,7 +68,7 @@ namespace ProgrammersBlog.Services.Concrete
                 });
             }
 
-            return new DataResult<ArticleDto>(ResultStatus.ERROR, Messages.Article.NotFound(isPlural:false), null);
+            return new DataResult<ArticleDto>(ResultStatus.ERROR, Messages.Article.NotFound(isPlural: false), null);
         }
 
         public async Task<IDataResult<ArticleListDto>> GetAll()
@@ -166,6 +166,34 @@ namespace ProgrammersBlog.Services.Concrete
             await _unitOfWork.Articles.UpdateAsync(article);
             await _unitOfWork.SaveAsync();
             return new Result(ResultStatus.SUCCESS, Messages.Article.Update(article.Title));
+        }
+
+        public async Task<IDataResult<int>> Count()
+        {
+            var articleCount = await _unitOfWork.Articles.CountAsync();
+
+            if (articleCount > -1)
+            {
+                return new DataResult<int>(ResultStatus.SUCCESS, articleCount);
+            }
+            else
+            {
+                return new DataResult<int>(ResultStatus.ERROR, $"Beklenmeyen bir hata ile karşılaşıldı!", -1);
+            }
+        }
+
+        public async Task<IDataResult<int>> CountByIsDeleted()
+        {
+            var articleCount = await _unitOfWork.Articles.CountAsync(a => !a.IsDeleted); // Silinmeyen Makaleleri getirecek predicate verildi.
+
+            if (articleCount > -1)
+            {
+                return new DataResult<int>(ResultStatus.SUCCESS, articleCount);
+            }
+            else
+            {
+                return new DataResult<int>(ResultStatus.ERROR, $"Beklenmeyen bir hata ile karşılaşıldı!", -1);
+            }
         }
     }
 }

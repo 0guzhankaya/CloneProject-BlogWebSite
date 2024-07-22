@@ -416,3 +416,7 @@ C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\UserMenu\Default.cshtml.g.cs
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\ChangeDetails.cshtml.g.cs
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\PasswordChange.cshtml.g.cs
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\Humanizer.dll
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ProgrammersBlog.Mvc.sourcelink.json
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_ComingSoonLayout.cshtml.g.cs

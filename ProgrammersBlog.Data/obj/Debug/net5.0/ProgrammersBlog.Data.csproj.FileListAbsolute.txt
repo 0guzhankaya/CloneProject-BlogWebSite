@@ -18,3 +18,4 @@ C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debu
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.pdb
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.genruntimeconfig.cache
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ref\ProgrammersBlog.Data.dll
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.sourcelink.json
