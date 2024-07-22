@@ -10,3 +10,4 @@ C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Shared\obj\De
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\refint\ProgrammersBlog.Shared.dll
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.pdb
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ref\ProgrammersBlog.Shared.dll
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.sourcelink.json

@@ -17,3 +17,4 @@ C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Services\bin\
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.AssemblyReference.cache
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.CopyComplete
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.sourcelink.json
