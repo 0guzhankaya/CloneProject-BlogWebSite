@@ -26,7 +26,7 @@ namespace ProgrammersBlog.Services.Concrete
             _mapper = mapper;
         }
 
-        public async Task<IResult> Add(ArticleAddDto articleAddDto, string createdByName)
+        public async Task<IResult> AddAsync(ArticleAddDto articleAddDto, string createdByName)
         {
             var article = _mapper.Map<Article>(articleAddDto);
             article.UserId = 1;
@@ -38,7 +38,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new Result(ResultStatus.SUCCESS, Messages.Article.Add(article.Title));
         }
 
-        public async Task<IResult> Delete(int articleId, string modifiedByName)
+        public async Task<IResult> DeleteAsync(int articleId, string modifiedByName)
         {
             var result = await _unitOfWork.Articles.AnyAsync(a => a.Id == articleId);
 
@@ -55,7 +55,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new Result(ResultStatus.ERROR, Messages.Article.NotFound(isPlural: false));
         }
 
-        public async Task<IDataResult<ArticleDto>> Get(int articleId)
+        public async Task<IDataResult<ArticleDto>> GetAsync(int articleId)
         {
             var article = await _unitOfWork.Articles.GetAsync(a => a.Id == articleId, a => a.User, a => a.Category);
 
@@ -71,7 +71,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new DataResult<ArticleDto>(ResultStatus.ERROR, Messages.Article.NotFound(isPlural: false), null);
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAll()
+        public async Task<IDataResult<ArticleListDto>> GetAllAsync()
         {
             var articles = await _unitOfWork.Articles.GetAllAsync(null, a => a.User, a => a.Category);
 
@@ -87,7 +87,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.ERROR, Messages.Article.NotFound(isPlural: true), null);
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAllByCategory(int categoryId)
+        public async Task<IDataResult<ArticleListDto>> GetAllByCategoryAsync(int categoryId)
         {
             // Önce kategorinin var olup olmadığını kontrol edildi.
             var result = await _unitOfWork.Categories.AnyAsync(c => c.Id == categoryId);
@@ -111,7 +111,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.ERROR, Messages.Category.NotFound(isPlural: false), null);
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeleted()
+        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAsync()
         {
             var articles = await _unitOfWork.Articles.GetAllAsync(a => !a.IsDeleted, ar => ar.User, ar => ar.Category);
 
@@ -127,7 +127,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.ERROR, Messages.Article.NotFound(isPlural: true), null);
         }
 
-        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActive()
+        public async Task<IDataResult<ArticleListDto>> GetAllByNonDeletedAndActiveAsync()
         {
             var articles = await _unitOfWork.Articles.GetAllAsync(a => !a.IsDeleted && a.IsActive, ar => ar.User, ar => ar.Category);
 
@@ -143,7 +143,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new DataResult<ArticleListDto>(ResultStatus.ERROR, Messages.Article.NotFound(isPlural: true), null);
         }
 
-        public async Task<IResult> HardDelete(int articleId)
+        public async Task<IResult> HardDeleteAsync(int articleId)
         {
             var result = await _unitOfWork.Articles.AnyAsync(a => a.Id == articleId);
 
@@ -159,7 +159,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new Result(ResultStatus.ERROR, Messages.Article.NotFound(isPlural: false));
         }
 
-        public async Task<IResult> Update(ArticleUpdateDto articleUpdateDto, string modifiedByName)
+        public async Task<IResult> UpdateAsync(ArticleUpdateDto articleUpdateDto, string modifiedByName)
         {
             var article = _mapper.Map<Article>(articleUpdateDto);
             article.ModifiedByName = modifiedByName;
@@ -168,7 +168,7 @@ namespace ProgrammersBlog.Services.Concrete
             return new Result(ResultStatus.SUCCESS, Messages.Article.Update(article.Title));
         }
 
-        public async Task<IDataResult<int>> Count()
+        public async Task<IDataResult<int>> CountAsync()
         {
             var articleCount = await _unitOfWork.Articles.CountAsync();
 
@@ -182,7 +182,7 @@ namespace ProgrammersBlog.Services.Concrete
             }
         }
 
-        public async Task<IDataResult<int>> CountByIsDeleted()
+        public async Task<IDataResult<int>> CountByNonDeletedAsync()
         {
             var articleCount = await _unitOfWork.Articles.CountAsync(a => !a.IsDeleted); // Silinmeyen Makaleleri getirecek predicate verildi.
 
