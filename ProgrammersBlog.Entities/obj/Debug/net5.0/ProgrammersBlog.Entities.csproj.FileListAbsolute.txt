@@ -13,3 +13,4 @@ C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Entities\obj\
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\refint\ProgrammersBlog.Entities.dll
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.pdb
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ref\ProgrammersBlog.Entities.dll
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net5.0\ProgrammersBlog.Entities.sourcelink.json
