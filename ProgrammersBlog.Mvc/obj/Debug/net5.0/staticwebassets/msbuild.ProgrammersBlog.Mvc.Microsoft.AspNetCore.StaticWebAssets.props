@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\chart-area-demo.js))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\chart-area-demo.js))">
       <SourceType>Package</SourceType>
       <SourceId>ProgrammersBlog.Mvc</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>assets\demo\chart-area-demo.js</RelativePath>
+      <RelativePath>AdminLTE\assets\demo\chart-area-demo.js</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -14,14 +14,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\chart-area-demo.js))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\chart-area-demo.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\chart-bar-demo.js))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\chart-bar-demo.js))">
       <SourceType>Package</SourceType>
       <SourceId>ProgrammersBlog.Mvc</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>assets\demo\chart-bar-demo.js</RelativePath>
+      <RelativePath>AdminLTE\assets\demo\chart-bar-demo.js</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -30,14 +30,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\chart-bar-demo.js))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\chart-bar-demo.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\chart-pie-demo.js))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\chart-pie-demo.js))">
       <SourceType>Package</SourceType>
       <SourceId>ProgrammersBlog.Mvc</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>assets\demo\chart-pie-demo.js</RelativePath>
+      <RelativePath>AdminLTE\assets\demo\chart-pie-demo.js</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\chart-pie-demo.js))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\chart-pie-demo.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\datatables-demo.js))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\datatables-demo.js))">
       <SourceType>Package</SourceType>
       <SourceId>ProgrammersBlog.Mvc</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>assets\demo\datatables-demo.js</RelativePath>
+      <RelativePath>AdminLTE\assets\demo\datatables-demo.js</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -62,14 +62,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\demo\datatables-demo.js))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\demo\datatables-demo.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\error-404-monochrome.svg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\img\error-404-monochrome.svg))">
       <SourceType>Package</SourceType>
       <SourceId>ProgrammersBlog.Mvc</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>assets\img\error-404-monochrome.svg</RelativePath>
+      <RelativePath>AdminLTE\assets\img\error-404-monochrome.svg</RelativePath>
       <AssetKind></AssetKind>
       <AssetMode></AssetMode>
       <AssetRole></AssetRole>
@@ -78,7 +78,199 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\error-404-monochrome.svg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\assets\img\error-404-monochrome.svg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\httpErrorBgAnimation.css))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\css\httpErrorBgAnimation.css</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\httpErrorBgAnimation.css))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\select2-bootstrap4.min.css))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\css\select2-bootstrap4.min.css</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\select2-bootstrap4.min.css))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\site.css))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\css\site.css</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\site.css))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\styles.css))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\css\styles.css</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\styles.css))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\userLogin.css))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\css\userLogin.css</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\css\userLogin.css))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\articleAdd.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\js\articleAdd.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\articleAdd.js))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\articleIndex.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\js\articleIndex.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\articleIndex.js))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\categoryIndex.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\js\categoryIndex.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\categoryIndex.js))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\homeIndex.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\js\homeIndex.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\homeIndex.js))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\scripts.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\js\scripts.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\scripts.js))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\site.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\js\site.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\site.js))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\userIndex.js))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>AdminLTE\js\userIndex.js</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AdminLTE\js\userIndex.js))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ComingSoon\css\main.css))">
       <SourceType>Package</SourceType>
@@ -1728,70 +1920,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\ComingSoon\vendor\tilt\tilt.jquery.min.js))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\httpErrorBgAnimation.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>css\httpErrorBgAnimation.css</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\httpErrorBgAnimation.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>css\site.css</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>css\styles.css</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\userLogin.css))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>css\userLogin.css</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\userLogin.css))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\adminuser25 954_34_45_17_17_7_2024.png))">
       <SourceType>Package</SourceType>
       <SourceId>ProgrammersBlog.Mvc</SourceId>
@@ -1823,6 +1951,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\noise-transparent.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\postImages\Blazor React Angular 686_17_19_21_28_7_2024.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>img\postImages\Blazor React Angular 686_17_19_21_28_7_2024.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\postImages\Blazor React Angular 686_17_19_21_28_7_2024.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\postImages\Blazor React Angular VueTest 2_21_48_21_28_7_2024.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProgrammersBlog.Mvc</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
+      <RelativePath>img\postImages\Blazor React Angular VueTest 2_21_48_21_28_7_2024.png</RelativePath>
+      <AssetKind></AssetKind>
+      <AssetMode></AssetMode>
+      <AssetRole></AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\postImages\Blazor React Angular VueTest 2_21_48_21_28_7_2024.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\postImages\defaultThumbnail.jpg))">
       <SourceType>Package</SourceType>
@@ -1887,86 +2047,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\userImage\editoruser 80_8_32_14_18_7_2024.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\categoryIndex.js))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>js\categoryIndex.js</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\categoryIndex.js))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\homeIndex.js))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>js\homeIndex.js</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\homeIndex.js))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\scripts.js))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>js\scripts.js</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\scripts.js))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>js\site.js</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\userIndex.js))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProgrammersBlog.Mvc</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProgrammersBlog.Mvc</BasePath>
-      <RelativePath>js\userIndex.js</RelativePath>
-      <AssetKind></AssetKind>
-      <AssetMode></AssetMode>
-      <AssetRole></AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\userIndex.js))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
