@@ -66,5 +66,8 @@ namespace ProgrammersBlog.Entities.Dtos
         [DisplayName("Silinsin Mi?")]
         [Required(ErrorMessage = "{0} Alanı Boş Bırakılamaz.")]
         public bool IsDeleted { get; set; }
+
+        [Required]
+        public int UserId { get; set; }
     }
 }

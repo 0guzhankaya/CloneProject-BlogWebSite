@@ -420,3 +420,10 @@ C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ProgrammersBlog.Mvc.sourcelink.json
 C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_ComingSoonLayout.cshtml.g.cs
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Article\Index.cshtml.g.cs
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Article\Add.cshtml.g.cs
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Article\Update.cshtml.g.cs
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\ProgrammersBlog.Mvc.StaticWebAssets.xml
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\NToastNotify.Views.dll
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\NToastNotify.dll
+C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\staticwebassets\ProgrammersBlog.Mvc.StaticWebAssets.xml
