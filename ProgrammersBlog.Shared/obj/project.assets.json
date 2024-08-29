@@ -8120,11 +8120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
       "projectName": "ProgrammersBlog.Shared",
-      "projectPath": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
+      "projectPath": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
       "packagesPath": "C:\\Users\\OguzhanKaya2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Shared\\obj\\",
+      "outputPath": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OguzhanKaya2\\AppData\\Roaming\\NuGet\\NuGet.Config",

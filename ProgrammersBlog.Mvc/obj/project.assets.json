@@ -10163,11 +10163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
       "projectName": "ProgrammersBlog.Mvc",
-      "projectPath": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
+      "projectPath": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
       "packagesPath": "C:\\Users\\OguzhanKaya2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Mvc\\obj\\",
+      "outputPath": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OguzhanKaya2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10184,8 +10184,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj": {
-              "projectPath": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj"
+            "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj": {
+              "projectPath": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj"
             }
           }
         }

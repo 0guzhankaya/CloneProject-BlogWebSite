@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xa9AQuJXbf+kq85HMsGUgtG8CvEnXlaX5mZGeBl/LbXlhyq5CAF5J7OcPUQw5KaP7d36TJHAw9Ivkclp+CGTIQ==",
+  "dgSpecHash": "2cKZOUvDZ5hDKGFqG6xLfpKitGN5XVP98HBUM89KP0imv+JrdqIIg/cDZxLmJKBMIefJ53oW1szhjt02M2nelA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
+  "projectFilePath": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OguzhanKaya2\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\OguzhanKaya2\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

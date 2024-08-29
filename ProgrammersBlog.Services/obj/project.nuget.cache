@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WFPwoiPGJFxVSKUmqRSv3lM6T4a5BkWrda2NAe7Kg0oAWxh3M/cMkZQSqCO/dHeqGQBnXGJLcdjl/24dgx/xzg==",
+  "dgSpecHash": "zNehumwYpiSbMvy5Iwos+r8MtbgQk+E9636W7dpz8oDo+qjzEF/hjBNjATwEptKK5UeQy9R0cnEhKMtZsQ1IRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OguzhanKaya2\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj",
+  "projectFilePath": "C:\\Users\\OguzhanKaya2\\Source\\Repos\\CloneProject-BlogWebSite\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OguzhanKaya2\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\OguzhanKaya2\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

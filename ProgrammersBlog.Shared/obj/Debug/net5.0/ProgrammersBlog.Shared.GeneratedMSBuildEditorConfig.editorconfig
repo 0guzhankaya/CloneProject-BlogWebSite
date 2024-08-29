@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProgrammersBlog.Shared
-build_property.ProjectDir = C:\Users\OguzhanKaya2\source\repos\ProgrammersBlog\ProgrammersBlog.Shared\
+build_property.ProjectDir = C:\Users\OguzhanKaya2\Source\Repos\CloneProject-BlogWebSite\ProgrammersBlog.Shared\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
